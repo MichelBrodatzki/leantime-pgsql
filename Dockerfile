@@ -1,4 +1,4 @@
-FROM leantime/leantime:3.9.8
+FROM leantime/leantime:3.10.0
 
 USER root
 RUN apk add --no-cache libpq libpq-dev && \
